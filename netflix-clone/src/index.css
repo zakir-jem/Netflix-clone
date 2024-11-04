@@ -1,0 +1,23 @@
+/* Import the Lexend and Inter fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100,200,300,400,500,600,700,800,900&family=Inter:wght@100,200,300,400,500,600,700,800,900&display=swap');
+
+/* Set the base font family for the document */
+:root {
+  --font-base: 'Lexend', sans-serif;
+  --font-second-base: 'Inter', sans-serif;
+  --bg-color: #111111;
+  --primary-color: #FFFFFF;
+  --secondary-color: #e50914;
+}
+
+/* Reset the default margins and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the background color for the body */
+body {
+  background: var(--bg-color);
+}
