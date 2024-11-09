@@ -42,6 +42,7 @@ const Footer = () => {
             <ul>
               <li>Media Center</li>
               <li>Privacy</li>
+              {/* 12ca579dfdc7e72199a19308eebf28af */}
               <li>Contact</li>
             </ul>
           </div>
