@@ -13,7 +13,7 @@ export default defineConfig({
   },
 
   envPrefix: "REACT_APP_",
-
+  base:'/Netflix-clone/',
   plugins: [
     reactRefresh(),
     envCompatible(),
